@@ -2036,7 +2036,32 @@ input[type="submit"]{
     font-size: 18px;
     margin-bottom: 100px;
     }
+    .headline {
+    margin: 80px 90px 50px;
+    }
 }
+
+@media (max-width: 1200px){
+    .menu ul li .fa {
+        font-size: 2em;
+    }
+    .slides{
+        height: 300px;
+        width: 90%;
+        left: 5%;
+    }
+    .tiltview{
+        left: 10%;
+        width: 75%;
+    }
+    .skills-diagram {
+    margin: 2em auto 2em;
+    }
+    .contact-form {
+    margin: 0 100px 100px;
+    }
+}
+
 @media (max-width: 960px){
     .home p{
          margin: 0px 25px 25px 0px;
@@ -2068,36 +2093,60 @@ input[type="submit"]{
         width: 90%;
     }
 }
-@media (max-width: 1280px){
-    .headline {
-    margin: 80px 90px 50px;
-}
-}
-@media (max-width: 1200px){
-    .slides{
-        height: 300px;
-        width: 90%;
-        left: 5%;
-    }
-    .tiltview{
-        left: 10%;
-        width: 75%;
-    }
-    .skills-diagram {
-    margin: 2em auto 2em;
-    }
-    .contact-form {
-    margin: 0 100px 100px;
-    }
-}
+
 @media (max-width: 768px){
     input[type=checkbox] + label{
             left: 86%;
         }
     }
+
 @media (max-width: 576px) { 
     input[type=checkbox] + label{
-            left: 7%;
+            left: 10%;
             top: 95%;
         }
+    .home{
+        height: auto;
+    }
+    .headline{
+        margin-left:30px;
+    }
+    .timeline .column .description_work p{
+        margin-right: 0px;
+    }
+    .timeline .column {
+    position: relative;
+    margin: 40px 0px 40px 120px;
+    }
+    .timeline .column .title h1 {
+    font-size: 90px;
+    }
+    .timeline .column .title h2 {
+    margin-top: -55px;
+    font-size: 18px;
+    }
+    .timeline .column .title h3 {
+    font-size: 18px;
+    }
+    .dip{
+        margin: 0;
+    }
+    .contact-form {
+        margin: 0 0px 100px 75px;
+    }
+    input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select{
+        max-width: 100%;
+        font-size: 1rem;
+    }
+    label, legend {
+    font-size: 1.2rem;
+    }
 }
+
+
+
+
+
+
+
+
