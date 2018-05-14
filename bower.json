@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "authors": [
+    "Mohamad Alzayat"
+  ],
+  "description": "portfolio for Mohamad",
+  "main": "index.js",
+  "keywords": [
+    "mohamad",
+    "alzayat"
+  ],
+  "license": "HW",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.3.1"
+  }
+}
